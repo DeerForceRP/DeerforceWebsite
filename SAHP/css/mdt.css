@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(223,212,190) !important;
+}
+
+table {
+    text-align: center;
+}
+
+h5 {
+    background: rgb(15,67,114); 
+    color: #fbbc04; 
+    display: inline-block; 
+    padding-left: 1%; 
+    padding-right: 1%; 
+    border: 2px solid black;
+}
+
+th {
+    background: rgb(15,67,114) !important;
+    color: #fbbc04 !important;
+    border-color: black !important;
+}
+
+.table-striped tbody tr:nth-of-type(2n+1) {
+    background-color: #c9daf8 !important;
+}
+
+.table-striped tbody tr {
+    background-color: white !important;
+}
+
+td {
+    border-color: black !important;
+}
+
+.sl {
+    background: #e06666;
+    color: white;
+}
+
+.active {
+    background: #6aa84f; 
+    color: white;
+}
