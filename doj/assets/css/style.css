@@ -1,0 +1,29 @@
+.btn-primary {
+    background-color: #ad9984;
+    border-color: #ad9984;
+}
+
+#mainNav .navbar-brand {
+    color: #d0b89d;
+}
+
+header.masthead {
+    background-image: url(../img/hero-bg.jpg);
+}
+
+.text-primary {
+    color: #d0b89d !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #d0b89d;
+}
+
+a {
+    color: #d0b89d;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #d0b89d;
+}
