@@ -25,5 +25,15 @@ a {
 }
 
 a:hover {
-    color: #3fbbc0;
+    color: #329599;
+}
+
+.btn-primary:hover {
+    background-color: #329599;
+    border-color: #329599;
+}
+
+.form-select:focus, .form-control:focus {
+    border-color: #329599;
+    box-shadow: 0 0 0 0.25rem rgb(50 149 153 / 25%);
 }
