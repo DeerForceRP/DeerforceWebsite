@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
@@ -27,18 +27,48 @@
             <a class="navbar-brand" href="#page-top">Deerforce</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <!--  -->
                 Menu
                 <i class="fas fa-bars ms-1"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#status">Server Status</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">Omkring os</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#applications">Staff Applications</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#companys">Firmaer</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#status">Server Status</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Omkring os</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#applications">Staff Applications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#companys">Firmaer</a>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontakt</a>
+                    </li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="login.html">Log ind</a></li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            ArtemisDK
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Profil</a></li>
+                            <li><a class="dropdown-item" href="#">Dashboard</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Log Ud</a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -56,13 +86,17 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Server Status</h2>
-                <h3 class="section-subheading text-muted">Her kan du se status på serveren</h3>
+                <h3 class="section-subheading text-muted">
+                    Her kan du se status på serveren
+                </h3>
             </div>
             <div class="row text-center">
                 <!-- <p><strong>Spillere online:</strong> <span>0/32</span></p>
-                <p><strong>Status:</strong> <span style="color: green;">Online</span></p>
-                <p><strong>Connect:</strong> <a href="#" class="btn btn-primary">Tilslut</a></p> -->
-                <p><strong>Status:</strong> <span style="color: red;">Offline</span></p>
+                  <p><strong>Status:</strong> <span style="color: green;">Online</span></p>
+                  <p><strong>Connect:</strong> <a href="#" class="btn btn-primary">Tilslut</a></p> -->
+                <p>
+                    <strong>Status:</strong> <span style="color: red">Offline</span>
+                </p>
             </div>
         </div>
     </section>
@@ -79,13 +113,17 @@
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Threads</div>
-                            <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                            <div class="portfolio-caption-subheading text-muted">
+                                Illustration
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -94,13 +132,17 @@
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Explore</div>
-                            <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                            <div class="portfolio-caption-subheading text-muted">
+                                Graphic Design
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -109,13 +151,17 @@
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Finish</div>
-                            <div class="portfolio-caption-subheading text-muted">Identity</div>
+                            <div class="portfolio-caption-subheading text-muted">
+                                Identity
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -124,13 +170,17 @@
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Lines</div>
-                            <div class="portfolio-caption-subheading text-muted">Branding</div>
+                            <div class="portfolio-caption-subheading text-muted">
+                                Branding
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -139,13 +189,17 @@
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Southwest</div>
-                            <div class="portfolio-caption-subheading text-muted">Website Design</div>
+                            <div class="portfolio-caption-subheading text-muted">
+                                Website Design
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -154,13 +208,17 @@
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-hover-content">
+                                    <i class="fas fa-plus fa-3x"></i>
+                                </div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Window</div>
-                            <div class="portfolio-caption-subheading text-muted">Photography</div>
+                            <div class="portfolio-caption-subheading text-muted">
+                                Photography
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -177,21 +235,42 @@
                 <div class="text-muted">
                     <strong>Velkommen til Deerforce</strong>
                     <p><strong>Hvad er DeerForce?</strong></p>
-                    <p>DeerForce er et ny opstartet fællesskab for dem som gerne vil lave & opleve noget fedt RP - Vi
-                        stræber os nemlig efter at det skal være sjovt at spille. Ikke for mange regler der sætter et
-                        loft for jeres scenarier.</p>
-                    <p><strong>Hvordan bliver jeg en del af DeerForce's fælleskab?</strong></p>
-                    <p>Når du tilslutter dig vores discord, så er du allerede en del af vores fællesskab.</p>
-                    <p>Før du kan komme ind og lave dejlig RP på vores server skal du dog først igennem en whitelist
-                        process.</p>
+                    <p>
+                        DeerForce er et ny opstartet fællesskab for dem som gerne vil lave
+                        & opleve noget fedt RP - Vi stræber os nemlig efter at det skal
+                        være sjovt at spille. Ikke for mange regler der sætter et loft for
+                        jeres scenarier.
+                    </p>
+                    <p>
+                        <strong>Hvordan bliver jeg en del af DeerForce's fælleskab?</strong>
+                    </p>
+                    <p>
+                        Når du tilslutter dig vores discord, så er du allerede en del af
+                        vores fællesskab.
+                    </p>
+                    <p>
+                        Før du kan komme ind og lave dejlig RP på vores server skal du dog
+                        først igennem en whitelist process.
+                    </p>
                     <p><strong>Whitelist jobs</strong></p>
-                    <p>Kunne du godt tænke dig et whitelistede job, så tjek vores <a href="#" data-bs-toggle="modal"
-                            data-bs-target="#jobModal">Job opslagstavle</a>, for åbne stillinger</p>
-                    <p><strong>Tjek server status her: <a href="#status">Server Status</a></strong></p>
-                    <p><strong>Tjek vores server-guide: <a href="" data-bs-toggle="modal"
-                                data-bs-target="#serverGuideModal">Server Guide</a></strong></p>
-                    <p><strong>Læs vores regler her: <a href="" data-bs-toggle="modal"
-                                data-bs-target="#rulesModal">Regler</a></strong></p>
+                    <p>
+                        Kunne du godt tænke dig et whitelistede job, så tjek vores
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#jobModal">Job opslagstavle</a>, for åbne
+                        stillinger
+                    </p>
+                    <p>
+                        <strong>Tjek server status her:
+                            <a href="#status">Server Status</a></strong>
+                    </p>
+                    <p>
+                        <strong>Tjek vores server-guide:
+                            <a href="" data-bs-toggle="modal" data-bs-target="#serverGuideModal">Server
+                                Guide</a></strong>
+                    </p>
+                    <p>
+                        <strong>Læs vores regler her:
+                            <a href="" data-bs-toggle="modal" data-bs-target="#rulesModal">Regler</a></strong>
+                    </p>
                 </div>
             </div>
         </div>
@@ -201,34 +280,48 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Staff Applications</h2>
-                <h3 class="section-subheading text-muted">Her kan du ansøge om forskellige staff stillinger</h3>
+                <h3 class="section-subheading text-muted">
+                    Her kan du ansøge om forskellige staff stillinger
+                </h3>
             </div>
             <div class="d-flex justify-content-center">
                 <div class="row">
                     <div class="btn-toolbar" role="toolbar" aria-label="Basic example">
                         <div class="btn-group mr-2 mb-2" role="group" aria-label="First Group">
                             <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                                data-bs-target="#whitelistReciverModal">Whitelist modtager</button>
-                        </div>
-                        <div class="btn-group mr-2 mb-2" role="group" aria-label="First Group">
-                            <button type="button" class="btn btn-danger" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal" disabled>Supporter</button>
-                        </div>
-                        <div class="btn-group mr-2 mb-2" role="group" aria-label="First Group">
-                            <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">Moderator</button>
+                                data-bs-target="#whitelistReciverModal">
+                                Whitelist modtager
+                            </button>
                         </div>
                         <div class="btn-group mr-2 mb-2" role="group" aria-label="First Group">
                             <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">Junior Admin</button>
+                                data-bs-target="#supporterModal">
+                                Supporter
+                            </button>
                         </div>
                         <div class="btn-group mr-2 mb-2" role="group" aria-label="First Group">
                             <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">Admin</button>
+                                data-bs-target="#moderatorModal">
+                                Moderator
+                            </button>
                         </div>
                         <div class="btn-group mr-2 mb-2" role="group" aria-label="First Group">
                             <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">Senior Admin</button>
+                                data-bs-target="#juniorAdminModal">
+                                Junior Admin
+                            </button>
+                        </div>
+                        <div class="btn-group mr-2 mb-2" role="group" aria-label="First Group">
+                            <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                data-bs-target="#adminModal">
+                                Admin
+                            </button>
+                        </div>
+                        <div class="btn-group mr-2 mb-2" role="group" aria-label="First Group">
+                            <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                data-bs-target="#seniorAdminModal">
+                                Senior Admin
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -267,14 +360,14 @@
                 <div class="col-lg-4">
                     <div class="team-member">
                         <a href="umutpizzaria/index.html" target="_blank"><img class="mx-auto rounded-circle"
-                                src="https://via.placeholder.com/128" alt="..."></a>
+                                src="https://via.placeholder.com/128" alt="..." /></a>
                         <h4>Ümuts Pizzaria</h4>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="team-member">
                         <a href="harrelsoninvestment/index.html" target="_blank"><img class="mx-auto rounded-circle"
-                                src="https://via.placeholder.com/128" alt="..."></a>
+                                src="https://via.placeholder.com/128" alt="..." /></a>
                         <h4>Harrelson Investment</h4>
                     </div>
                 </div>
@@ -286,7 +379,9 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Vores fantastiske team</h2>
-                <h3 class="section-subheading text-muted">Vores dejlige staff team</h3>
+                <h3 class="section-subheading text-muted">
+                    Vores dejlige staff team
+                </h3>
             </div>
             <div class="row">
                 <div class="col-lg-4">
@@ -332,7 +427,9 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Kontakt Os</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted">
+                    Lorem ipsum dolor sit amet consectetur.
+                </h3>
             </div>
             <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                 <div class="row align-items-stretch mb-5">
@@ -341,20 +438,27 @@
                             <!-- Name input-->
                             <input class="form-control" id="name" type="text" placeholder="Your Name *"
                                 data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="name:required">
+                                A name is required.
+                            </div>
                         </div>
                         <div class="form-group">
                             <!-- Email address input-->
                             <input class="form-control" id="email" type="email" placeholder="Your Email *"
                                 data-sb-validations="required,email" />
-                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">
+                                An email is required.
+                            </div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">
+                                Email is not valid.
+                            </div>
                         </div>
                         <div class="form-group mb-md-0">
                             <!-- Phone number input-->
                             <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
                                 data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">
+                                A phone number is required.
                             </div>
                         </div>
                     </div>
@@ -363,17 +467,23 @@
                             <!-- Message input-->
                             <textarea class="form-control" id="message" placeholder="Your Message *"
                                 data-sb-validations="required"></textarea>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
+                            <div class="invalid-feedback" data-sb-feedback="message:required">
+                                A message is required.
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="d-none" id="submitErrorMessage">
-                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                    <div class="text-center text-danger mb-3">
+                        Error sending message!
+                    </div>
                 </div>
                 <!-- Submit Button-->
-                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled"
-                        id="submitButton" type="submit">Send Message</button></div>
+                <div class="text-center">
+                    <button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">
+                        Send Message
+                    </button>
+                </div>
             </form>
         </div>
     </section>
@@ -381,10 +491,13 @@
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-start">&copy; 2018
-                    <script>new Date().getFullYear() > 2018 && document.write(" - " + new Date().getFullYear());</script>
-                    ,
-                    Deerforce.
+                <div class="col-lg-4 text-lg-start">
+                    &copy; 2018
+                    <script>
+                        new Date().getFullYear() > 2018 &&
+                            document.write(" - " + new Date().getFullYear());
+                    </script>
+                    , Deerforce.
                 </div>
                 <div class="col-lg-4 my-3 my-lg-0">
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
@@ -411,65 +524,125 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p>Vær opmærksom på at vi til hver en tid kan ændre, tilføje eller fjerne i disse regler, da
-                        serveren stadig er i beta og udviklings fasen.</p>
-                    <p><strong>Vi forventer at <u>ALLE</u> vores brugere har været denne side igennem, inden de
-                            connector til vores server første gang. Opdager vi det ikke er tilfældet, vil vi fjerne dit
-                            whitelist og bede dig om at ansøge på ny.</strong></p>
+                    <p>
+                        Vær opmærksom på at vi til hver en tid kan ændre, tilføje eller
+                        fjerne i disse regler, da serveren stadig er i beta og udviklings
+                        fasen.
+                    </p>
+                    <p>
+                        <strong>Vi forventer at <u>ALLE</u> vores brugere har været denne side
+                            igennem, inden de connector til vores server første gang.
+                            Opdager vi det ikke er tilfældet, vil vi fjerne dit whitelist og
+                            bede dig om at ansøge på ny.</strong>
+                    </p>
                     <ol>
-                        <li>Vær respektfuld, både overfor folk på serveren - men også folk på discorden. Behandle andre
-                            med samme respekt som du gerne vil modtage.</li>
-                        <li>Kontakt ikke staff i privat beskeder, før du har opbrugt alle andre muligheder. Her vil vi
-                            henvende til brug af Discorden, Live Chatten eller kontakt os på mail.</li>
-                        <li>Der må under ingen omstændigheder metagames, streamsnipes eller lignende ting.</li>
-                        <li>Vi er her alle for at have det sjovt, og at have holdningen om at man SKAL vinde alle
-                            situationer er ikke med til at gøre det sjovt. Så vi ser gerne at man pakker den holdning
-                            væk.</li>
+                        <li>
+                            Vær respektfuld, både overfor folk på serveren - men også folk
+                            på discorden. Behandle andre med samme respekt som du gerne vil
+                            modtage.
+                        </li>
+                        <li>
+                            Kontakt ikke staff i privat beskeder, før du har opbrugt alle
+                            andre muligheder. Her vil vi henvende til brug af Discorden,
+                            Live Chatten eller kontakt os på mail.
+                        </li>
+                        <li>
+                            Der må under ingen omstændigheder metagames, streamsnipes eller
+                            lignende ting.
+                        </li>
+                        <li>
+                            Vi er her alle for at have det sjovt, og at have holdningen om
+                            at man SKAL vinde alle situationer er ikke med til at gøre det
+                            sjovt. Så vi ser gerne at man pakker den holdning væk.
+                        </li>
                         <li>Du skal ikke misbruge ingame chat, eller Twatter.</li>
-                        <li>Du må ikke bruge 3. parts programmer for at kommunikere udenfor serveren - har man brug for
-                            at snakke med nogle som ikke er i nærheden, vælger man ringe til den person over ingame
-                            telefonen, og ikke via. en discord eller teamspeak.</li>
-                        <li>En af de absolut vigtigste regler på Deerforce vil være at man ikke skal gå ud af sin
-                            karakter. Oplever du at andre laver failrp, eller at din dørklokke ringer IRL - så kræver vi
-                            at du finder en RP mæssig grund til at gå væk fra computeren. At sige "Jeg har lige noget
-                            oppe i hoevedet", eller lignende. Er ikke en god nok RP grund.</li>
-                        <li>Når din karakter signer op til et job, skal du aktiv gøre dit job, Du skal ikke tage Taxi
-                            jobbet, bare fordi det giver adgang til en nem bil, til ét eventuelt bankrøveri eller
-                            kidnapning.</li>
-                        <li>Vigtigt at du som spiller ikke vægter gunplay over roleplay, vi ser helst at du rp'er dig ud
-                            af sitationen. Fremfor bare at skyde dig ud af den.</li>
-                        <li>Din karakter kan ikke bære bodycams, eller filme ud af bilen. Det ødelægger roleplayen at
-                            bruge streams, clips eller lignende. Derfor skal du som kriminel heller ikke påkræve et klip
-                            fra betjenten for at han kan arrestere dig.</li>
-                        <li>Du skal ikke røve, skade eller i væreste fald dræbe nogen uden grund som passer til din
-                            karakter.</li>
-                        <li>Gå ikke ind i andres folks scenarier uden gyldig grund som passer til din karakter. Ser du
-                            en der er ved at røve en bank, skal du ikke komme som udefra kommende og redde situationen,
-                            da din karakter ikke agere som super helt.</li>
-                        <li>En af de aller vigtigste faktorer for at spille på DeerForce vil være at man skal være unik.
-                            En unik karakter er meget sjovere at lave ping-pong med, end en der står og farmer og/eller
-                            bruger sin tid i garagen eller på gadehjørnerne. Er man den type optager man blot bare en
-                            plads på serveren, og man vil derfor risikere at få fjernet sit whitelist.</li>
-                        <li>Frygt for dit liv - Du er ét menneske, til trods for din karakter kan genopstå. Du er altså
-                            ikke en robot, superhelt eller lignende. Ej, heller fordi du kan klæde dig ud som en.</li>
-                        <li>Sproget in-game skal holdes i en ordenligt tone, lige ledes også på discorden. Det kan
-                            risikeres at der i RP scenariet vil være en streamer, og vi vil nødigt have du eller
-                            streameren bliver bannede fra Twitch.</li>
-                        <li>Er du blevet bevidstløs ingame, og du er i politiet eller EMS folkenes varetægt skal du ikke
-                            respawne. Du vil dræbe RP'en fuldstændigt. Er det fordi du vil dræbe din karakter, kan du
-                            bruge /me funktionen til at sige du ingen puls har, og derved RP den derfra.</li>
-                        <li>Grupper på DeerForce er begrænset til 4 medlemmer max. Hvis der er mere end 4 der går sammen
-                            vil alle de involverede blive straffet. Forklaring: Det er utroligt svært at lave gode
-                            scenarier, hvis der er en gruppe der samles på 15 personer - og der er 32 slots på serveren.
-                            Så vil de 15 personer kunne styre alle scenarierne på serveren. I må være lige så mange I
-                            vil være i jeres gruppe, dog må der kun være 4 sammen ad gangen.</li>
+                        <li>
+                            Du må ikke bruge 3. parts programmer for at kommunikere udenfor
+                            serveren - har man brug for at snakke med nogle som ikke er i
+                            nærheden, vælger man ringe til den person over ingame telefonen,
+                            og ikke via. en discord eller teamspeak.
+                        </li>
+                        <li>
+                            En af de absolut vigtigste regler på Deerforce vil være at man
+                            ikke skal gå ud af sin karakter. Oplever du at andre laver
+                            failrp, eller at din dørklokke ringer IRL - så kræver vi at du
+                            finder en RP mæssig grund til at gå væk fra computeren. At sige
+                            "Jeg har lige noget oppe i hoevedet", eller lignende. Er ikke en
+                            god nok RP grund.
+                        </li>
+                        <li>
+                            Når din karakter signer op til et job, skal du aktiv gøre dit
+                            job, Du skal ikke tage Taxi jobbet, bare fordi det giver adgang
+                            til en nem bil, til ét eventuelt bankrøveri eller kidnapning.
+                        </li>
+                        <li>
+                            Vigtigt at du som spiller ikke vægter gunplay over roleplay, vi
+                            ser helst at du rp'er dig ud af sitationen. Fremfor bare at
+                            skyde dig ud af den.
+                        </li>
+                        <li>
+                            Din karakter kan ikke bære bodycams, eller filme ud af bilen.
+                            Det ødelægger roleplayen at bruge streams, clips eller lignende.
+                            Derfor skal du som kriminel heller ikke påkræve et klip fra
+                            betjenten for at han kan arrestere dig.
+                        </li>
+                        <li>
+                            Du skal ikke røve, skade eller i væreste fald dræbe nogen uden
+                            grund som passer til din karakter.
+                        </li>
+                        <li>
+                            Gå ikke ind i andres folks scenarier uden gyldig grund som
+                            passer til din karakter. Ser du en der er ved at røve en bank,
+                            skal du ikke komme som udefra kommende og redde situationen, da
+                            din karakter ikke agere som super helt.
+                        </li>
+                        <li>
+                            En af de aller vigtigste faktorer for at spille på DeerForce vil
+                            være at man skal være unik. En unik karakter er meget sjovere at
+                            lave ping-pong med, end en der står og farmer og/eller bruger
+                            sin tid i garagen eller på gadehjørnerne. Er man den type
+                            optager man blot bare en plads på serveren, og man vil derfor
+                            risikere at få fjernet sit whitelist.
+                        </li>
+                        <li>
+                            Frygt for dit liv - Du er ét menneske, til trods for din
+                            karakter kan genopstå. Du er altså ikke en robot, superhelt
+                            eller lignende. Ej, heller fordi du kan klæde dig ud som en.
+                        </li>
+                        <li>
+                            Sproget in-game skal holdes i en ordenligt tone, lige ledes også
+                            på discorden. Det kan risikeres at der i RP scenariet vil være
+                            en streamer, og vi vil nødigt have du eller streameren bliver
+                            bannede fra Twitch.
+                        </li>
+                        <li>
+                            Er du blevet bevidstløs ingame, og du er i politiet eller EMS
+                            folkenes varetægt skal du ikke respawne. Du vil dræbe RP'en
+                            fuldstændigt. Er det fordi du vil dræbe din karakter, kan du
+                            bruge /me funktionen til at sige du ingen puls har, og derved RP
+                            den derfra.
+                        </li>
+                        <li>
+                            Grupper på DeerForce er begrænset til 4 medlemmer max. Hvis der
+                            er mere end 4 der går sammen vil alle de involverede blive
+                            straffet. Forklaring: Det er utroligt svært at lave gode
+                            scenarier, hvis der er en gruppe der samles på 15 personer - og
+                            der er 32 slots på serveren. Så vil de 15 personer kunne styre
+                            alle scenarierne på serveren. I må være lige så mange I vil være
+                            i jeres gruppe, dog må der kun være 4 sammen ad gangen.
+                        </li>
                     </ol>
-                    <p>Er du permanent bannede kan du efter 30 dage ansøge om unban. Dette er dog undtaget folk der har
-                        benyttet sig af exploits, hacking eller lignende bantyper. Alle andre former for ban kan
-                        appelleres.</p>
+                    <p>
+                        Er du permanent bannede kan du efter 30 dage ansøge om unban.
+                        Dette er dog undtaget folk der har benyttet sig af exploits,
+                        hacking eller lignende bantyper. Alle andre former for ban kan
+                        appelleres.
+                    </p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
                 </div>
             </div>
         </div>
@@ -486,39 +659,73 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p><strong><i>Det her vil være server guiden I kan bruge for at komme i gang med serveren og være
-                                helt opdateret med hvad man kan på serveren, og hvilke knapper der gør
-                                hvad!</i></strong></p>
-                    <p><strong><u>Kom godt i gang</u></strong></p>
-                    <p>Ved rådhuset kan du vælge om du vil være Arbejdsløs, Taxachauffør</p>
-                    <p>Vi har noget der hedder whitelistede jobs på serveren, som er Betjent, EMS, Advokat, Dommer osv.
-                        Hvilket vil sige at du skal lave en ansøgning <a href="#" data-bs-toggle="modal"
-                            data-bs-target="#jobModal">her</a> for at kunne blive whitelisted
-                        til disse job.</p>
-                    <p>Tag eventuelt ned til bilforhandleren og få købt dig selv en bil.</p>
-                    <p>Derefter vil du være klar til at udforske Los Santos by med venner eller på egen hånd.</p>
-                    <p><strong><u>Whitelist Procedure</u></strong></p>
+                    <p>
+                        <strong><i>Det her vil være server guiden I kan bruge for at komme i
+                                gang med serveren og være helt opdateret med hvad man kan på
+                                serveren, og hvilke knapper der gør hvad!</i></strong>
+                    </p>
+                    <p>
+                        <strong><u>Kom godt i gang</u></strong>
+                    </p>
+                    <p>
+                        Ved rådhuset kan du vælge om du vil være Arbejdsløs, Taxachauffør
+                    </p>
+                    <p>
+                        Vi har noget der hedder whitelistede jobs på serveren, som er
+                        Betjent, EMS, Advokat, Dommer osv. Hvilket vil sige at du skal
+                        lave en ansøgning
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#jobModal">her</a>
+                        for at kunne blive whitelisted til disse job.
+                    </p>
+                    <p>
+                        Tag eventuelt ned til bilforhandleren og få købt dig selv en bil.
+                    </p>
+                    <p>
+                        Derefter vil du være klar til at udforske Los Santos by med venner
+                        eller på egen hånd.
+                    </p>
+                    <p>
+                        <strong><u>Whitelist Procedure</u></strong>
+                    </p>
                     <ul>
                         <li>Send din ansøgning</li>
                         <li>Vent på svar</li>
-                        <li>Hvis du for besked på det, så sæt dig i afventer whitelist og tag samtalen</li>
+                        <li>
+                            Hvis du for besked på det, så sæt dig i afventer whitelist og
+                            tag samtalen
+                        </li>
                         <li>Ellers join serveren</li>
                         <li>Done</li>
                     </ul>
-                    <p><strong><u>Serveren</u></strong></p>
-                    <p>Som det kan ses på mappet vil der være mange ikoner forskellige steder man kan tage hen, men der
-                        er også steder hvor der ikke vil være ikoner F.eks. Kokain farm, Hash Mark og fremstilling vil
-                        ikke være på mappet, fordi vi synes man skal RP sig frem til hvor de ligger. Det vil være en god
-                        idé at skaffe venner på serveren!</p>
-                    <p><strong><u>Chat</u></strong></p>
+                    <p>
+                        <strong><u>Serveren</u></strong>
+                    </p>
+                    <p>
+                        Som det kan ses på mappet vil der være mange ikoner forskellige
+                        steder man kan tage hen, men der er også steder hvor der ikke vil
+                        være ikoner F.eks. Kokain farm, Hash Mark og fremstilling vil ikke
+                        være på mappet, fordi vi synes man skal RP sig frem til hvor de
+                        ligger. Det vil være en god idé at skaffe venner på serveren!
+                    </p>
+                    <p>
+                        <strong><u>Chat</u></strong>
+                    </p>
                     <p>/me = Handling</p>
-                    <p><strong><u>Keybinds til serveren</u></strong></p>
-                    <p>De fleste keybinds står i Keybinds delen af ingame indstillingerne</p>
-                    <p><strong><i>!!Læs nu grundigt hvad der står, så vi ikke skal forklar det til alle
-                                sammen!!</i></strong></p>
+                    <p>
+                        <strong><u>Keybinds til serveren</u></strong>
+                    </p>
+                    <p>
+                        De fleste keybinds står i Keybinds delen af ingame indstillingerne
+                    </p>
+                    <p>
+                        <strong><i>!!Læs nu grundigt hvad der står, så vi ikke skal forklar det
+                                til alle sammen!!</i></strong>
+                    </p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
                 </div>
             </div>
         </div>
@@ -535,37 +742,71 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p><strong><u>LSPD</u></strong></p>
-                    <p>Drømmer du om at blive den nye Vlado online, så prøv lykken hos LSPD og få et job med mange
-                        forskellige oplevelser på daglig basis. Du kan forvente meget aktion, intents pres (både fysisk
-                        og psykisk) og fantastisk samarbejde med andre kollegaer.</p>
-                    <p><strong>Ansøg</strong> <a href="lspd/index.html" target="_blank">her</a></p>
-                    <p><strong><u>EMS</u></strong></p>
-                    <p>Går du og har en ambition om at gøre verdenen til et bedre sted og hjælpe andre folk som et
-                        arbejde? Så skal du da helt sikkert lave en ansøgning til EMS, hvor du kan udleve din drøm om at
-                        redde en skømjomfru fra døden eller mange andre scenarier.</p>
-                    <p><strong>Ansøg</strong> <a href="ems/index.html" target="_blank">her</a></p>
-                    <p><strong><u>Advokat</u></strong></p>
-                    <p>Har du skruet hjernen ordentlig sammen og har et godt kenskab til jura og er du klar til at stå i
-                        retten til at forsvare din klient uanset hvad? Så er det da advokat verden du skal begive dig
-                        selv hen i. Det er det hele værd!</p>
+                    <p>
+                        <strong><u>LSPD</u></strong>
+                    </p>
+                    <p>
+                        Drømmer du om at blive den nye Vlado online, så prøv lykken hos
+                        LSPD og få et job med mange forskellige oplevelser på daglig
+                        basis. Du kan forvente meget aktion, intents pres (både fysisk og
+                        psykisk) og fantastisk samarbejde med andre kollegaer.
+                    </p>
+                    <p>
+                        <strong>Ansøg</strong>
+                        <a href="lspd/index.html" target="_blank">her</a>
+                    </p>
+                    <p>
+                        <strong><u>EMS</u></strong>
+                    </p>
+                    <p>
+                        Går du og har en ambition om at gøre verdenen til et bedre sted og
+                        hjælpe andre folk som et arbejde? Så skal du da helt sikkert lave
+                        en ansøgning til EMS, hvor du kan udleve din drøm om at redde en
+                        skømjomfru fra døden eller mange andre scenarier.
+                    </p>
+                    <p>
+                        <strong>Ansøg</strong>
+                        <a href="ems/index.html" target="_blank">her</a>
+                    </p>
+                    <p>
+                        <strong><u>Advokat</u></strong>
+                    </p>
+                    <p>
+                        Har du skruet hjernen ordentlig sammen og har et godt kenskab til
+                        jura og er du klar til at stå i retten til at forsvare din klient
+                        uanset hvad? Så er det da advokat verden du skal begive dig selv
+                        hen i. Det er det hele værd!
+                    </p>
                     <p><strong>Ansøg</strong> <a href="#" target="_blank">her</a></p>
-                    <p><strong><u>Dommer</u></strong></p>
-                    <p>Har du en ambition om at fjerne alle de onde skurke fra gaderne i Los Santos eller frifinde de
-                        uskyldige? Så er retsdommer jobbet lige noget for dig. Du skal være stærk i dine beslutninger og
-                        ikke kunne have skyldfølelse uanset hvilken fortælling der bliver solgt til dig. Jobbet kræver
-                        en stærk mentalitet og god samarbejde med politiet og advokater.</p>
+                    <p>
+                        <strong><u>Dommer</u></strong>
+                    </p>
+                    <p>
+                        Har du en ambition om at fjerne alle de onde skurke fra gaderne i
+                        Los Santos eller frifinde de uskyldige? Så er retsdommer jobbet
+                        lige noget for dig. Du skal være stærk i dine beslutninger og ikke
+                        kunne have skyldfølelse uanset hvilken fortælling der bliver solgt
+                        til dig. Jobbet kræver en stærk mentalitet og god samarbejde med
+                        politiet og advokater.
+                    </p>
                     <p><strong>Ansøg</strong> <a href="#" target="_blank">her</a></p>
-                    <p><strong><u>Mekaniker</u></strong></p>
-                    <p>Kan du godt lide motor og blive beskidt af olie, så tag dog og rod med nogle biler, alle drenge
-                        med benzin i blodet elsker altid at "pop the hood". Som mekaniker sørger du for at hjælpe alle
-                        folk i nød, som er løbet ind i problemer med deres biler i Los Santos! Du skal have en god viden
-                        inden for biler og deres egenskaber, når du f.eks. skal ligge og samle forskellige motordele.
+                    <p>
+                        <strong><u>Mekaniker</u></strong>
+                    </p>
+                    <p>
+                        Kan du godt lide motor og blive beskidt af olie, så tag dog og rod
+                        med nogle biler, alle drenge med benzin i blodet elsker altid at
+                        "pop the hood". Som mekaniker sørger du for at hjælpe alle folk i
+                        nød, som er løbet ind i problemer med deres biler i Los Santos! Du
+                        skal have en god viden inden for biler og deres egenskaber, når du
+                        f.eks. skal ligge og samle forskellige motordele.
                     </p>
                     <p><strong>Ansøg</strong> <a href="#" target="_blank">her</a></p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
                 </div>
             </div>
         </div>
@@ -576,129 +817,485 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="whitelistReciverModalLabel">Whitelist Modtager Ansøgning</h5>
+                    <h5 class="modal-title" id="whitelistReciverModalLabel">
+                        Whitelist Modtager Ansøgning
+                    </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form class="row g-3">
                         <div class="col-md-6">
                             <label for="" class="form-label">Discord navn</label>
-                            <input type="text" class="form-control" id="" placeholder="ArtemisDK#8572">
+                            <input type="text" class="form-control" id="" placeholder="ArtemisDK#8572" />
                         </div>
                         <div class="col-md-6">
                             <label for="" class="form-label">Hvor gammel er du?</label>
-                            <input type="text" class="form-control" id="" placeholder="23">
+                            <input type="text" class="form-control" id="" placeholder="23" />
                         </div>
                         <div class="col-md-6">
                             <label for="" class="form-label">Hvor mange timer har du spillet på Deerforce?</label>
-                            <input type="text" class="form-control" id="" placeholder="200+ timer">
+                            <input type="text" class="form-control" id="" placeholder="200+ timer" />
                         </div>
                         <div class="col-md-6">
-                            <label for="" class="form-label">Hvor mange timer om ugen har du mulighed for at være
-                                aktiv?</label>
-                            <input type="text" class="form-control" id="" placeholder="12+ timer">
+                            <label for="" class="form-label">Hvor mange timer kan du være aktiv om ugen?</label>
+                            <input type="text" class="form-control" id="" placeholder="12+ timer" />
                         </div>
                         <div class="col-md-6">
-                            <label for="" class="form-label">Har du nogen erfaring indenfor Staff? (Du må gerne uddybe
-                                hvad du har lavet)</label>
-                            <textarea class="form-control" id="" rows="3"></textarea>
+                            <label for="" class="form-label">Har du nogen erfaring indenfor Staff?</label>
+                            <textarea class="form-control" id="" rows="3"
+                                placeholder="Beskriv de opgaver du har haft"></textarea>
                         </div>
                         <div class="col-md-6">
                             <label for="" class="form-label">Er der noget specielt vi skal vide omkring dig?</label>
-                            <textarea class="form-control" id="" rows="3"></textarea>
+                            <textarea class="form-control" id="" rows="3"
+                                placeholder="Her kan du skrive hvis du f.eks. er ordblind"></textarea>
                         </div>
                         <div class="col-md-6">
                             <label for="" class="form-label">Er du indforstået med at du muligvis vil blive taget med
-                                til en samtale inden du bliver Staff?</label>
+                                til
+                                en samtale inden du bliver Staff?</label>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="" id="" value="Ja">
+                                <input class="form-check-input" type="radio" name="" id="" value="Ja" />
                                 <label class="form-check-label" for="">Ja</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="" id="" value="Nej">
+                                <input class="form-check-input" type="radio" name="" id="" value="Nej" />
                                 <label class="form-check-label" for="">Nej</label>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <label for="" class="form-label">Er du indforstået med at hvis du spørg indtil din
-                                ansøgning, så vil den blive afvist?</label>
+                                ansøgning,
+                                så vil den blive afvist?</label>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="" id="" value="Ja">
+                                <input class="form-check-input" type="radio" name="" id="" value="Ja" />
                                 <label class="form-check-label" for="">Ja</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="" id="" value="Nej">
+                                <input class="form-check-input" type="radio" name="" id="" value="Nej" />
                                 <label class="form-check-label" for="">Nej</label>
                             </div>
                         </div>
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i
-                            class="fa-solid fa-xmark"></i>&nbsp;Luk</button>
-                    <button type="button" class="btn btn-primary"><i class="fas fa-paper-plane"></i>&nbsp;Send</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        <i class="fa-solid fa-xmark"></i>&nbsp;Luk
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>&nbsp;Send
+                    </button>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Portfolio item 5 modal popup-->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
+    <!-- Supporter Modal  -->
+    <div class="modal fade" id="supporterModal" tabindex="-1" aria-label="supporterModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
-                        alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Southwest
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Website Design
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fas fa-times me-1"></i>
-                                    Close Project
-                                </button>
+                <div class="modal-header">
+                    <h5 class="modal-title" id="supporterModalLabel">
+                        Supporter Ansøgning
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Discord navn</label>
+                            <input type="text" class="form-control" id="" placeholder="ArtemisDK#8572" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Hvor gammel er du?</label>
+                            <input type="text" class="form-control" id="" placeholder="23" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Hvor mange timer har du spillet på Deerforce?</label>
+                            <input type="text" class="form-control" id="" placeholder="200+ timer" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Hvor mange timer kan du være aktiv om ugen?</label>
+                            <input type="text" class="form-control" id="" placeholder="12+ timer" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Har du nogen erfaring indenfor Staff?</label>
+                            <textarea class="form-control" id="" rows="3"
+                                placeholder="Beskriv de opgaver du har haft"></textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Er der noget specielt vi skal vide omkring dig?</label>
+                            <textarea class="form-control" id="" rows="3"
+                                placeholder="Her kan du skrive hvis du f.eks. er ordblind"></textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Er du indforstået med at du muligvis vil blive taget med
+                                til
+                                en samtale inden du bliver Staff?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Ja" />
+                                <label class="form-check-label" for="">Ja</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Nej" />
+                                <label class="form-check-label" for="">Nej</label>
                             </div>
                         </div>
-                    </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Er du indforstået med at hvis du spørg indtil din
+                                ansøgning,
+                                så vil den blive afvist?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Ja" />
+                                <label class="form-check-label" for="">Ja</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Nej" />
+                                <label class="form-check-label" for="">Nej</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        <i class="fa-solid fa-xmark"></i>&nbsp;Luk
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>&nbsp;Send
+                    </button>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Portfolio item 6 modal popup-->
+    <!-- Moderator Modal -->
+    <div class="modal fade" id="moderatorModal" tabindex="-1" aria-label="moderatorModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="moderatorModalLabel">
+                        Moderator Ansøgning
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Discord navn</label>
+                            <input type="text" class="form-control" id="" placeholder="ArtemisDK#8572" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Hvor gammel er du?</label>
+                            <input type="text" class="form-control" id="" placeholder="23" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Hvor mange timer har du spillet på Deerforce?</label>
+                            <input type="text" class="form-control" id="" placeholder="200+ timer" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Hvor mange timer kan du være aktiv om ugen?</label>
+                            <input type="text" class="form-control" id="" placeholder="12+ timer" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Har du nogen erfaring indenfor Staff?</label>
+                            <textarea class="form-control" id="" rows="3"
+                                placeholder="Beskriv de opgaver du har haft"></textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Er der noget specielt vi skal vide omkring dig?</label>
+                            <textarea class="form-control" id="" rows="3"
+                                placeholder="Her kan du skrive hvis du f.eks. er ordblind"></textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Er du indforstået med at du muligvis vil blive taget med
+                                til
+                                en samtale inden du bliver Staff?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Ja" />
+                                <label class="form-check-label" for="">Ja</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Nej" />
+                                <label class="form-check-label" for="">Nej</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Er du indforstået med at hvis du spørg indtil din
+                                ansøgning,
+                                så vil den blive afvist?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Ja" />
+                                <label class="form-check-label" for="">Ja</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Nej" />
+                                <label class="form-check-label" for="">Nej</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        <i class="fa-solid fa-xmark"></i>&nbsp;Luk
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>&nbsp;Send
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Junior Admin Modal -->
+    <div class="modal fade" id="juniorAdminModal" tabindex="-1" aria-label="juniorAdminModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="juniorAdminModalLabel">
+                        Junior Admin Ansøgning
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Discord navn</label>
+                            <input type="text" class="form-control" id="" placeholder="ArtemisDK#8572" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Hvor gammel er du?</label>
+                            <input type="text" class="form-control" id="" placeholder="23" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Hvor mange timer har du spillet på Deerforce?</label>
+                            <input type="text" class="form-control" id="" placeholder="200+ timer" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Hvor mange timer kan du være aktiv om ugen?</label>
+                            <input type="text" class="form-control" id="" placeholder="12+ timer" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Har du nogen erfaring indenfor Staff?</label>
+                            <textarea class="form-control" id="" rows="3"
+                                placeholder="Beskriv de opgaver du har haft"></textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Er der noget specielt vi skal vide omkring dig?</label>
+                            <textarea class="form-control" id="" rows="3"
+                                placeholder="Her kan du skrive hvis du f.eks. er ordblind"></textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Er du indforstået med at du muligvis vil blive taget med
+                                til
+                                en samtale inden du bliver Staff?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Ja" />
+                                <label class="form-check-label" for="">Ja</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Nej" />
+                                <label class="form-check-label" for="">Nej</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Er du indforstået med at hvis du spørg indtil din
+                                ansøgning,
+                                så vil den blive afvist?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Ja" />
+                                <label class="form-check-label" for="">Ja</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Nej" />
+                                <label class="form-check-label" for="">Nej</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        <i class="fa-solid fa-xmark"></i>&nbsp;Luk
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>&nbsp;Send
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Admin Modal -->
+    <div class="modal fade" id="adminModal" tabindex="-1" aria-label="adminModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="adminModalLabel">Admin Ansøgning</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Discord navn</label>
+                            <input type="text" class="form-control" id="" placeholder="ArtemisDK#8572" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Hvor gammel er du?</label>
+                            <input type="text" class="form-control" id="" placeholder="23" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Hvor mange timer har du spillet på Deerforce?</label>
+                            <input type="text" class="form-control" id="" placeholder="200+ timer" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Hvor mange timer kan du være aktiv om ugen?</label>
+                            <input type="text" class="form-control" id="" placeholder="12+ timer" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Har du nogen erfaring indenfor Staff?</label>
+                            <textarea class="form-control" id="" rows="3"
+                                placeholder="Beskriv de opgaver du har haft"></textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Er der noget specielt vi skal vide omkring dig?</label>
+                            <textarea class="form-control" id="" rows="3"
+                                placeholder="Her kan du skrive hvis du f.eks. er ordblind"></textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Er du indforstået med at du muligvis vil blive taget med
+                                til
+                                en samtale inden du bliver Staff?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Ja" />
+                                <label class="form-check-label" for="">Ja</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Nej" />
+                                <label class="form-check-label" for="">Nej</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Er du indforstået med at hvis du spørg indtil din
+                                ansøgning,
+                                så vil den blive afvist?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Ja" />
+                                <label class="form-check-label" for="">Ja</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Nej" />
+                                <label class="form-check-label" for="">Nej</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        <i class="fa-solid fa-xmark"></i>&nbsp;Luk
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>&nbsp;Send
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Senior Admin Modal -->
+    <div class="modal fade" id="seniorAdminModal" tabindex="-1" aria-label="seniorAdminModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="seniorAdminModalLabel">
+                        Senior Admin Ansøgning
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Discord navn</label>
+                            <input type="text" class="form-control" id="" placeholder="ArtemisDK#8572" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Hvor gammel er du?</label>
+                            <input type="text" class="form-control" id="" placeholder="23" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Hvor mange timer har du spillet på Deerforce?</label>
+                            <input type="text" class="form-control" id="" placeholder="200+ timer" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Hvor mange timer kan du være aktiv om ugen?</label>
+                            <input type="text" class="form-control" id="" placeholder="12+ timer" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Har du nogen erfaring indenfor Staff?</label>
+                            <textarea class="form-control" id="" rows="3"
+                                placeholder="Beskriv de opgaver du har haft"></textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Er der noget specielt vi skal vide omkring dig?</label>
+                            <textarea class="form-control" id="" rows="3"
+                                placeholder="Her kan du skrive hvis du f.eks. er ordblind"></textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Er du indforstået med at du muligvis vil blive taget med
+                                til
+                                en samtale inden du bliver Staff?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Ja" />
+                                <label class="form-check-label" for="">Ja</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Nej" />
+                                <label class="form-check-label" for="">Nej</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="" class="form-label">Er du indforstået med at hvis du spørg indtil din
+                                ansøgning,
+                                så vil den blive afvist?</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Ja" />
+                                <label class="form-check-label" for="">Ja</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="" id="" value="Nej" />
+                                <label class="form-check-label" for="">Nej</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        <i class="fa-solid fa-xmark"></i>&nbsp;Luk
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>&nbsp;Send
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 6 modal popup -->
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
-                        alt="Close modal" /></div>
+                <div class="close-modal" data-bs-dismiss="modal">
+                    <img src="assets/img/close-icon.svg" alt="Close modal" />
+                </div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
                                 <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <p class="item-intro text-muted">
+                                    Lorem ipsum dolor sit amet consectetur.
+                                </p>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <p>
+                                    Use this area to describe your project. Lorem ipsum dolor
+                                    sit amet, consectetur adipisicing elit. Est blanditiis
+                                    dolorem culpa incidunt minus dignissimos deserunt repellat
+                                    aperiam quasi sunt officia expedita beatae cupiditate,
+                                    maiores repudiandae, nostrum, reiciendis facere nemo!
+                                </p>
                                 <ul class="list-inline">
                                     <li>
                                         <strong>Client:</strong>
@@ -733,13 +1330,15 @@
     <!-- Live Chat -->
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
-        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
         (function () {
-            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
             s1.async = true;
-            s1.src = 'https://embed.tawk.to/623f6d062abe5b455fc1c9f5/1fv3s3p05';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
+            s1.src = "https://embed.tawk.to/623f6d062abe5b455fc1c9f5/1fv3s3p05";
+            s1.charset = "UTF-8";
+            s1.setAttribute("crossorigin", "*");
             s0.parentNode.insertBefore(s1, s0);
         })();
     </script>
