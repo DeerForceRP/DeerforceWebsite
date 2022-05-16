@@ -32,7 +32,7 @@
                     <li class="nav-item"><a class="nav-link" href="#permissions">Permissions</a></li>
                     <li class="nav-item"><a class="nav-link" href="#applicationSettings">Ansøgnings indstillinger</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="!#">Link 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#companySettings">Firma Indstillinger</a></li>
                     <li class="nav-item"><a class="nav-link" href="!#">Link 1</a></li>
                 </ul>
             </div>
@@ -261,7 +261,7 @@
         </div>
     </section>
     <!-- Permissions -->
-    <section class="page-section" id="permissions">
+    <section class="page-section bg-light" id="permissions">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Permissions</h2>
@@ -475,6 +475,51 @@
             </div>
         </div>
     </section>
+    <!-- Firma indstillinger -->
+    <section class="page-section bg-light" id="companySettings">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Firma indstillinger</h2>
+            </div>
+            <div class="row text-center">
+                <select class="form-select" aria-label="Firma vælger">
+                    <option selected>Vælg firma...</option>
+                    <option value="umutspizzaria">Ümuts Pizzaria</option>
+                    <option value="lspd">Los Santos Police Department</option>
+                    <option vlaue="ems">Emergency Medical Service</option>
+                    <option value="doj">Department Of Justice</option>
+                    <option vlaue="harrelsoninvestment">Harrelson Investment</option>
+                </select>
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Område</th>
+                            <th scope="col">Handling</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Menu</td>
+                            <td>
+                                <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                                    data-bs-target="#companySettingsModal">
+                                    Rediger <i class="fa-solid fa-file-pen"></i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Løn</td>
+                            <td>
+                                <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                                    data-bs-target="#companySalaryModal">Rediger <i
+                                        class="fa-solid fa-file-pen"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
     <!-- Footer -->
     <footer class="footer py-4">
         <div class="container">
@@ -499,6 +544,86 @@
             </div>
         </div>
     </footer>
+
+    <!-- Company Settings Modal -->
+    <div class="modal fade" id="companySettingsModal" tabindex="-1" aria-labelledby="comapnySettingsModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="companySettingsModalLabel">Ümuts Pizzaria - Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">Navn</th>
+                                <th scope="col">Beskrivelse</th>
+                                <th scope="col">Kategori</th>
+                                <th scope="col">Pris</th>
+                                <th scope="col">Handling</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <td>Lobster Bisque</td>
+                            <td>Lorem, deren, trataro, filede, nerada</td>
+                            <td>Skaldyr</td>
+                            <td>$5.95</td>
+                            <td>
+                                <button type="button" class="btn btn-warning">Rediger <i
+                                        class="fa-solid fa-file-pen"></i></button>
+                                <button type="button" class="btn btn-danger">Slet <i
+                                        class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Company Settings Modal -->
+    <div class="modal fade" id="companySalaryModal" tabindex="-1" aria-labelledby="companySalaryModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="companySalaryModalLabel">Ümuts Pizzaria - Løn</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">Stilling</th>
+                                <th scope="col">Løn</th>
+                                <th scope="col">Handling</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Chef Kok</td>
+                                <td>$3500</td>
+                                <td>
+                                    <button type="button" class="btn btn-warning">Rediger <i
+                                            class="fa-solid fa-file-pen"></i></button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
